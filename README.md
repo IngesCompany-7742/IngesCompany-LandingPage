@@ -69,7 +69,7 @@ In this context, digital transformation represents an opportunity to optimize in
 
 ## Project Structure
 
-\\\
+````
 DoofPlus-LandingPage/
 ├── index.html                         # Main landing page
 ├── README.md
@@ -83,7 +83,7 @@ DoofPlus-LandingPage/
 │   │       ├── en.js              # English translations
 │   │       └── es.js              # Spanish translations
 │   └── images/                    # Team photos, logo, hero image
-\\\
+````
 
 ---
 
