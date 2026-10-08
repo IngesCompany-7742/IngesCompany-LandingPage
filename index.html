@@ -1,33 +1,68 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+  <!-- Meta tags for responsive design and character encoding -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoofPlus - Pharmaceutical Workspace</title>
+  <link rel="stylesheet" href="public/assets/styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
+<!-- Header section with navigation and language switcher -->
+<header class="navbar">
+  <div class="logo">DoofPlus</div>
+  <nav class="nav-links">
+    <a href="#" data-i18n="nav.platform"></a>
+    <a href="#" data-i18n="nav.role"></a>
+    <a href="#" data-i18n="nav.security"></a>
+    <a href="#" data-i18n="nav.resources"></a>
+  </nav>
+  <div class="nav-actions">
+    <div class="lang-switch">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <span class="separator">|</span>
+      <button class="lang-btn" data-lang="es">ES</button>
+    </div>
+    <button class="btn btn-teal" data-i18n="nav.qa_access"></button>
+    <button class="btn btn-teal" data-i18n="nav.prod_access"></button>
+  </div>
+</header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+<main>
+  <section class="hero">
+    <div class="hero-content">
+      <span class="overline" data-i18n="hero.overline"></span>
 
+      <!-- TODO: Implement dynamic content -->
+
+      <h1 data-i18n="hero.title"></h1>
+      <p class="subtitle" data-i18n="hero.subtitle"></p>
+
+      <div class="hero-buttons">
+        <button class="btn-teal-large" data-i18n="hero.btn_signin"></button>
+        <button class="btn-outline" data-i18n="hero.btn_capabilities"></button>
+      </div>
+
+      <p class="hero-footer" data-i18n="hero.footer"></p>
+    </div>
+
+    <div class="hero-visual">
+      <div class="image-wrapper">
+        <img src="public/assets/images/pharmaceutical-laboratory.jpg" alt="Pharmaceutical Laboratory" class="main-img">
+
+        <div class="floating-card">
+          <span class="status-badge" data-i18n="hero.badge"></span>
+          <p data-i18n="hero.badge_text"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="public/assets/scripts/translations/en.js"></script>
+<script src="public/assets/scripts/translations/es.js"></script>
+<script src="public/assets/scripts/main.js"></script>
 </body>
-
 </html>
