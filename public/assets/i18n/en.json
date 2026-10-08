@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "home": "DoofPlus - Pharmaceutical Quality Management"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "benefits": "Benefits",
+    "about": "About Us",
+    "plans": "Plans",
+    "sign_in": "Sign in",
+    "get_started": "Get Started",
+    "menu": "Open menu",
+    "skip": "Skip to main content",
+    "close": "Close menu"
+  },
+  "hero": {
+    "cta_demo": "Request a demo"
+  },
+  "footer": {
+    "tagline": "Pharmaceutical quality management with IoT and regulatory compliance.",
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing Plans",
+    "how": "How it works",
+    "company": "Company",
+    "about": "About Us",
+    "team": "Our Team",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "location": "Lima, Perú",
+    "legal": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "copyright": "Copyright © 2026 IngesCompany. All rights reserved.",
+    "qa_access": "QA/QC Access",
+    "prod_access": "Production Access"
+  }
+}
