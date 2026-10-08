@@ -1,68 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <!-- Meta tags for responsive design and character encoding -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DoofPlus - Pharmaceutical Workspace</title>
-  <link rel="stylesheet" href="public/assets/styles/style.css">
+  <meta name="description" content="DoofPlus centralizes quality documentation, batch traceability, deviations and IoT data for pharmaceutical laboratories in one platform.">
+  <meta name="keywords" content="DoofPlus, pharmaceutical quality management, GMP, BPM, DIGEMID, batch traceability, IoT, audit trail, QA/QC, SaaS">
+  <meta name="author" content="IngesCompany">
+  <title data-i18n="meta.home">DoofPlus - Pharmaceutical Quality Management</title>
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="public/assets/styles/main.css">
 </head>
 <body>
-<!-- Header section with navigation and language switcher -->
+<a class="skip-link" href="#main" data-i18n="nav.skip">Skip to main content</a>
+<!-- Header: brand, section navigation, language switcher and segment access -->
 <header class="navbar">
-  <div class="logo">DoofPlus</div>
-  <nav class="nav-links">
-    <a href="#" data-i18n="nav.platform"></a>
-    <a href="#" data-i18n="nav.role"></a>
-    <a href="#" data-i18n="nav.security"></a>
-    <a href="#" data-i18n="nav.resources"></a>
-  </nav>
-  <div class="nav-actions">
-    <div class="lang-switch">
-      <button class="lang-btn active" data-lang="en">EN</button>
-      <span class="separator">|</span>
-      <button class="lang-btn" data-lang="es">ES</button>
+  <div class="container navbar-inner">
+    <a href="#home" class="brand"><img src="public/assets/images/doofplus-logo.png" alt="DoofPlus" class="brand-logo"></a>
+
+    <nav class="nav-links" aria-label="Main">
+      <a href="#home" class="active" data-i18n="nav.home">Home</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#benefits" data-i18n="nav.benefits">Benefits</a>
+      <a href="#about" data-i18n="nav.about">About Us</a>
+      <a href="#plans" data-i18n="nav.plans">Plans</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button class="lang-btn active" type="button" data-lang="en">EN</button>
+        <button class="lang-btn" type="button" data-lang="es">ES</button>
+      </div>
+      <a href="#workspace" class="link-teal desktop-only" data-i18n="nav.sign_in">Sign in</a>
+      <a href="#workspace" data-magnetic class="btn btn-primary desktop-only" data-i18n="nav.get_started">Get Started</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-i18n-aria="nav.menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-    <button class="btn btn-teal" data-i18n="nav.qa_access"></button>
-    <button class="btn btn-teal" data-i18n="nav.prod_access"></button>
+  </div>
+
+  <!-- Mobile menu (≤ 900px) -->
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav class="mobile-links" aria-label="Main">
+      <a href="#home" data-i18n="nav.home">Home</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#benefits" data-i18n="nav.benefits">Benefits</a>
+      <a href="#about" data-i18n="nav.about">About Us</a>
+      <a href="#plans" data-i18n="nav.plans">Plans</a>
+    </nav>
+    <a href="#workspace" class="mobile-sign-in" data-i18n="nav.sign_in">Sign in</a>
+    <a href="#workspace" class="btn btn-primary btn-block btn-lg" data-i18n="nav.get_started">Get Started</a>
+    <a href="demo.html" class="btn btn-ghost-light btn-block btn-lg" data-i18n="hero.cta_demo">Request a demo</a>
+    <div class="lang-switch lang-switch-dark" role="group" aria-label="Language">
+      <button class="lang-btn" type="button" data-lang="en">EN</button>
+      <button class="lang-btn" type="button" data-lang="es">ES</button>
+    </div>
   </div>
 </header>
 
-<main>
-  <section class="hero">
-    <div class="hero-content">
-      <span class="overline" data-i18n="hero.overline"></span>
-
-      <!-- TODO: Implement dynamic content -->
-
-      <h1 data-i18n="hero.title"></h1>
-      <p class="subtitle" data-i18n="hero.subtitle"></p>
-
-      <div class="hero-buttons">
-        <button class="btn-teal-large" data-i18n="hero.btn_signin"></button>
-        <button class="btn-outline" data-i18n="hero.btn_capabilities"></button>
-      </div>
-
-      <p class="hero-footer" data-i18n="hero.footer"></p>
-    </div>
-
-    <div class="hero-visual">
-      <div class="image-wrapper">
-        <img src="public/assets/images/pharmaceutical-laboratory.jpg" alt="Pharmaceutical Laboratory" class="main-img">
-
-        <div class="floating-card">
-          <span class="status-badge" data-i18n="hero.badge"></span>
-          <p data-i18n="hero.badge_text"></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+<main id="main">
 </main>
 
-<script src="public/assets/scripts/translations/en.js"></script>
-<script src="public/assets/scripts/translations/es.js"></script>
-<script src="public/assets/scripts/main.js"></script>
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="public/assets/images/doofplus-logo.png" alt="DoofPlus" class="brand-logo footer-logo">
+        <p data-i18n="footer.tagline"></p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.product">Product</h4>
+        <a href="#features" data-i18n="footer.features"></a>
+        <a href="#plans" data-i18n="footer.pricing"></a>
+        <a href="#product" data-i18n="footer.how"></a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.company">Company</h4>
+        <a href="#about" data-i18n="footer.about"></a>
+        <a href="#team" data-i18n="footer.team"></a>
+        <a href="#faq" data-i18n="footer.faq"></a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <a href="mailto:doofplus.inges@gmail.com">doofplus.inges@gmail.com</a>
+        <a href="tel:+5112345678">+51 (1) 234-5678</a>
+        <span data-i18n="footer.location">Lima, Perú</span>
+      </div>
+      <div>
+        <h4 data-i18n="footer.legal">Legal</h4>
+        <a href="terms.html" class="underline" data-i18n="footer.terms"></a>
+        <a href="privacy.html" class="underline" data-i18n="footer.privacy"></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.copyright"></p>
+      <div class="footer-actions">
+        <div class="lang-switch lang-switch-dark" role="group" aria-label="Language">
+          <button class="lang-btn active" type="button" data-lang="en">EN</button>
+          <button class="lang-btn" type="button" data-lang="es">ES</button>
+        </div>
+        <a href="#" class="btn btn-dark" data-app-segment="qa" data-i18n="footer.qa_access">QA/QC Access</a>
+        <a href="#" class="btn btn-dark" data-app-segment="production" data-i18n="footer.prod_access">Production Access</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="public/assets/scripts/main.js"></script>
 </body>
 </html>
