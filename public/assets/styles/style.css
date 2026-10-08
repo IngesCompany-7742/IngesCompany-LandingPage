@@ -1,0 +1,105 @@
+:root {
+  --bg-dark: #0B132B;
+  --teal-primary: #0D9488;
+  --teal-hover: #0F766E;
+  --text-white: #F8FAFC;
+  --text-gray: #94A3B8;
+  --font-main: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark);
+  font-family: var(--font-main);
+  color: var(--text-white);
+  line-height: 1.5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+}
+
+.logo {
+  color: var(--teal-primary);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  color: var(--text-gray);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--text-white);
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lang-switch {
+  background: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  color: #94A3B8;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.lang-btn.active {
+  color: var(--bg-dark);
+}
+
+.separator {
+  color: #CBD5E1;
+  font-size: 12px;
+  margin: 0 2px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-teal {
+  background-color: var(--teal-primary);
+  color: white;
+}
+
+.btn-teal:hover {
+  background-color: var(--teal-hover);
+}
