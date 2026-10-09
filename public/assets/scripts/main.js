@@ -3,6 +3,7 @@ import { initializeLanguageSwitcher } from './components/language-switcher.js';
 import { initializeNavbar } from './components/navbar.js';
 import { initializeSegmentAccess } from './components/segment-access.js';
 import { initializeAccordions } from './components/accordion.js';
+import { initializeBillingToggle } from './components/billing-toggle.js';
 import { initializeMagneticEffect } from './effects/magnetic.effect.js';
 
 /**
@@ -21,5 +22,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   initializeNavbar();
   initializeSegmentAccess();
   initializeAccordions();
+  initializeBillingToggle();
   initializeMagneticEffect();
 });
