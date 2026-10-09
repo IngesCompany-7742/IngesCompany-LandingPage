@@ -4,6 +4,7 @@ import { initializeNavbar } from './components/navbar.js';
 import { initializeSegmentAccess } from './components/segment-access.js';
 import { initializeAccordions } from './components/accordion.js';
 import { initializeBillingToggle } from './components/billing-toggle.js';
+import { initializeVideoPlayers } from './components/video-player.js';
 import { initializeContactInquiry } from './components/contact-inquiry.js';
 import { initializeMagneticEffect } from './effects/magnetic.effect.js';
 
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initializeSegmentAccess();
   initializeAccordions();
   initializeBillingToggle();
+  initializeVideoPlayers();
   initializeContactInquiry();
   initializeMagneticEffect();
 });
