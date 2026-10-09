@@ -12,10 +12,24 @@
     "get_started": "Comenzar",
     "menu": "Abrir menú",
     "skip": "Saltar al contenido principal",
-    "close": "Cerrar menú"
+    "close": "Cerrar menú",
+    "platform": "Plataforma",
+    "role": "Por rol",
+    "security": "Seguridad",
+    "resources": "Recursos",
+    "qa_access": "Acceso QA/QC",
+    "prod_access": "Acceso Producción"
   },
   "hero": {
-    "cta_demo": "Solicitar una demo"
+    "overline": "CALIDAD · PRODUCCIÓN · CONECTADOS",
+    "title": "Cada lote.<br>Cada decisión.<br>Un registro claro.",
+    "subtitle": "Reúne la documentación de calidad, la trazabilidad y la visión del equipo en vivo en un solo espacio.",
+    "btn_signin": "No tienes cuenta? Regístrate",
+    "btn_capabilities": "Ver capacidades",
+    "trust": "Acceso por roles · Registros atribuidos · Aprobaciones controladas · 2FA crítico",
+    "image_alt": "Laboratorio Farmacéutico",
+    "badge": "LISTO PARA LIBERAR",
+    "badge_text": "<strong>B-26038</strong> · Evidencia completa · 6 de 6 prerrequisitos aprobados · Maya Chen"
   },
   "plans": {
     "overline": "Planes",

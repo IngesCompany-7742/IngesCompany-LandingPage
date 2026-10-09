@@ -1,4 +1,104 @@
-﻿/* ---------- Plans ---------- */
+﻿/* ---------- Hero ---------- */
+.hero {
+  padding: 64px 0 88px;
+}
+
+.hero-grid {
+  display: grid;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.hero-subtitle {
+  margin-top: 40px;
+  color: #94a3b8;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.hero-trust {
+  margin-top: 20px;
+  color: #cbd5e1;
+  font-size: 13px;
+}
+
+.hero-visual {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+
+.status-badge {
+  background-color: #D1FAE5;
+  color: #065F46;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.floating-card p {
+  font-size: 14px;
+  color: #475569;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.floating-card p strong {
+  color: #0F172A;
+  font-weight: 700;
+}
+.navbar-dark {
+  background: var(--navy);
+  border-bottom: 1px solid var(--navy-line);
+}
+.navbar-dark .nav-links a {
+  color: var(--muted-light);
+}
+.navbar-dark .nav-links a:hover {
+  color: #ffffff;
+}
+.lang-switch-dark {
+  background: white;
+  border-radius: 20px;
+  padding: 4px 12px;
+}
+.lang-switch-dark .lang-btn {
+  color: var(--navy);
+  font-weight: 700;
+}
+.floating-card {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  background-color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  z-index: 10;
+}
+/* ---------- Plans ---------- */
 
 .plans-head {
     display: flex;
