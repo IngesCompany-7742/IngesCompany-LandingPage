@@ -700,3 +700,14 @@
   color: var(--muted);
   font-size: 12px;
 }
+
+/* ---------- FAQ ---------- */
+
+#faq .accordion {
+  margin-top: 40px;
+}
+
+.faq-more {
+  margin-top: 24px;
+  font-size: 14px;
+}
