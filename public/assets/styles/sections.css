@@ -764,3 +764,46 @@
   color: var(--muted);
   font-size: 13px;
 }
+
+/* ---------- Team ---------- */
+
+.team-grid {
+  margin-top: 40px;
+}
+
+.team-card {
+  padding: 20px 20px 36px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--gray-bg);
+}
+
+.team-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.team-head img {
+  width: 72px;
+  height: 72px;
+  border: 2px solid #5eead4;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-head h3 {
+  font-size: 15px;
+}
+
+.team-head span {
+  color: var(--teal);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.team-card p {
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 12px;
+}
