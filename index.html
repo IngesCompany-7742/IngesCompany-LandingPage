@@ -84,54 +84,40 @@
     </div>
   </section>
 
-<!-- Workspace Section -->
-<section class="workspace-section" id="workspace">
-
-  <!-- Top Process Bar -->
-  <div class="process-flow">
+<!-- Segment access to the Web Application -->
+  <section class="section section-mint" id="workspace">
     <div class="container">
-      <span class="process-overline" data-i18n="workspace.process_overline"></span>
-      <div class="process-steps">
-        <div class="process-step" data-i18n="workspace.step1"></div>
-        <div class="process-step" data-i18n="workspace.step2"></div>
-        <div class="process-step" data-i18n="workspace.step3"></div>
-        <div class="process-step" data-i18n="workspace.step4"></div>
+      <span class="overline" data-i18n="workspace.overline">Get started</span>
+      <h2 data-i18n="workspace.title">Choose your workspace</h2>
+      <p class="section-subtitle" data-i18n="workspace.subtitle"></p>
+
+      <div class="grid-2">
+        <article class="segment-card">
+          <span class="pill" data-i18n="workspace.qa_tag">QA / QC</span>
+          <h3 data-i18n="workspace.qa_title">For QA/QC Specialists</h3>
+          <p data-i18n="workspace.qa_text"></p>
+          <a href="#" data-magnetic class="btn btn-primary" data-app-segment="qa" data-i18n="workspace.qa_cta">Sign in to the QA/QC environment →</a>
+        </article>
+        <article class="segment-card">
+          <span class="pill" data-i18n="workspace.prod_tag">Production</span>
+          <h3 data-i18n="workspace.prod_title">For Production Supervisors</h3>
+          <p data-i18n="workspace.prod_text"></p>
+          <a href="#" data-magnetic class="btn btn-primary" data-app-segment="production" data-i18n="workspace.prod_cta">Sign in to the Production environment →</a>
+        </article>
+      </div>
+
+      <div class="new-banner">
+        <div>
+          <h3 data-i18n="workspace.new_title">New to DoofPlus?</h3>
+          <p data-i18n="workspace.new_text"></p>
+        </div>
+        <div class="new-banner-actions">
+          <a href="#" data-magnetic class="btn btn-primary" data-app-segment="register" data-i18n="workspace.register">Register your laboratory</a>
+          <a href="#contact" class="btn btn-outline" data-i18n="workspace.contact">Contact us</a>
+        </div>
       </div>
     </div>
-  </div>
-
-  <!-- Workspace Header -->
-  <div class="workspace-header">
-    <div class="container">
-      <span class="overline" data-i18n="workspace.overline"></span>
-      <h2 data-i18n="workspace.title"></h2>
-      <p class="section-subtitle" data-i18n="workspace.subtitle"></p>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="grid-2">
-
-      <article class="segment-card">
-        <span class="pill-outline" data-i18n="workspace.qa_tag"></span>
-        <h3 data-i18n="workspace.qa_title"></h3>
-        <p class="card-bold-text" data-i18n="workspace.qa_subtitle"></p>
-        <p class="card-list-text" data-i18n="workspace.qa_list"></p>
-        <a href="#" class="btn btn-primary" data-app-segment="qa" data-i18n="workspace.qa_cta"></a>
-      </article>
-
-      <article class="segment-card">
-        <span class="pill-outline" data-i18n="workspace.prod_tag"></span>
-        <h3 data-i18n="workspace.prod_title"></h3>
-        <p class="card-bold-text" data-i18n="workspace.prod_subtitle"></p>
-        <p class="card-list-text" data-i18n="workspace.prod_list"></p>
-        <a href="#" class="btn btn-primary" data-app-segment="production" data-i18n="workspace.prod_cta"></a>
-      </article>
-
-    </div>
-  </div>
-
-</section>
+  </section>
 <!-- Services -->
 <section class="section" id="services">
   <div class="container">
