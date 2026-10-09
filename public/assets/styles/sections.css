@@ -98,6 +98,106 @@
   box-shadow: var(--shadow);
   z-index: 10;
 }
+/* ---------- Workspace Section ---------- */
+.workspace-section {
+  background-color: var(--mint); /* Fondo verde clarito general */
+  padding-bottom: 80px;
+}
+
+/* Process Bar */
+.process-flow {
+  background-color: #ffffff;
+  padding: 32px 0;
+}
+.process-overline {
+  color: var(--teal);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: block;
+}
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.process-step {
+  background: var(--mint);
+  border: 1px solid var(--teal-pale);
+  padding: 14px 16px;
+  border-radius: 6px;
+  color: var(--teal-dark);
+  font-size: 13px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.process-step strong {
+  font-weight: 700;
+}
+
+/* Header de Workspaces */
+.workspace-header {
+  padding: 56px 0 40px;
+}
+.workspace-header h2 {
+  font-size: 32px;
+  color: var(--navy);
+  margin-top: 8px;
+}
+.workspace-header .section-subtitle {
+  color: var(--muted);
+  font-size: 15px;
+  max-width: 800px;
+  margin-top: 16px;
+  line-height: 1.6;
+}
+
+.segment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 32px;
+  border: 2px solid var(--teal);
+  border-top-width: 6px;
+  border-radius: var(--radius);
+  background: #ffffff;
+  box-shadow: var(--shadow);
+}
+.pill-outline {
+  display: inline-block;
+  padding: 4px 16px;
+  border: 1px solid var(--teal-bright);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--teal);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.segment-card h3 {
+  font-size: 24px;
+  color: var(--navy);
+  margin: 0;
+}
+.card-bold-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 0;
+}
+.card-list-text {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
 /* ---------- Plans ---------- */
 
 .plans-head {
