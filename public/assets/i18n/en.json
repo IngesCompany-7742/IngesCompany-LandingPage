@@ -40,7 +40,18 @@
       "step4": "<strong>04 Release</strong> — Sign an accountable QA decision",
       "overline": "YOUR ROLE · YOUR PRIORITIES",
       "title": "Two focused entrances. One connected organization.",
-      "subtitle": "Choose your workspace. Your organization assigns access and approval privileges. Selecting a route is intent—permissions are determined by your authenticated profile and assigned facility after 2FA."
+      "subtitle": "Choose your workspace. Your organization assigns access and approval privileges. Selecting a route is intent—permissions are determined by your authenticated profile and assigned facility after 2FA.",
+      "qa_tag": "QA / QC",
+      "qa_title": "For QA/QC Specialists",
+      "qa_subtitle": "Quality risk, approvals and release readiness first.",
+      "qa_list": "· Documents & SOPs · Analytical results · Deviations & CAPA · Audits & reports",
+      "qa_cta": "Enter QA/QC workspace →",
+
+      "prod_tag": "PRODUCTION",
+      "prod_title": "For Production Supervisors",
+      "prod_subtitle": "Keep orders, batches and equipment moving.",
+      "prod_list": "· Products & formulas · Production orders · Materials · IoT & incidents",
+      "prod_cta": "Enter production workspace →"
     },
   "plans": {
     "overline": "Plans",

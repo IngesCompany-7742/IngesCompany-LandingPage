@@ -154,6 +154,50 @@
   line-height: 1.6;
 }
 
+.segment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 32px;
+  border: 2px solid var(--teal);
+  border-top-width: 6px;
+  border-radius: var(--radius);
+  background: #ffffff;
+  box-shadow: var(--shadow);
+}
+.pill-outline {
+  display: inline-block;
+  padding: 4px 16px;
+  border: 1px solid var(--teal-bright);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--teal);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.segment-card h3 {
+  font-size: 24px;
+  color: var(--navy);
+  margin: 0;
+}
+.card-bold-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 0;
+}
+.card-list-text {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
 /* ---------- Plans ---------- */
 
 .plans-head {
