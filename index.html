@@ -47,11 +47,13 @@
         <h1 data-i18n="hero.title"></h1>
         <p class="hero-subtitle" data-i18n="hero.subtitle"></p>
         <div class="hero-buttons">
-          <a href="#workspace" class="btn btn-primary btn-lg" data-i18n="hero.btn_signin"></a>
-          <a href="#capabilities" class="btn btn-outline btn-lg" data-i18n="hero.btn_capabilities" style="border: 1px solid #64748b; color: white; background: transparent;"></a>        </div>        <p class="hero-trust" data-i18n="hero.trust"></p>
+          <a href="#workspace" class="btn btn-primary btn-lg" data-app-segment="register" data-i18n="hero.btn_signin"></a>
+          <a href="#features" class="btn btn-ghost-light btn-lg" data-i18n="hero.btn_capabilities"></a>
+        </div>
+        <p class="hero-trust" data-i18n="hero.trust"></p>
       </div>
       <div class="hero-visual">
-        <img src="public/assets/images/pharmaceutical-laboratory.jpg" alt="Laboratorio" class="hero-img">
+        <img src="public/assets/images/pharmaceutical-laboratory.jpg" alt="Pharmaceutical laboratory" data-i18n-alt="hero.image_alt" class="hero-img">
         <div class="floating-card">
           <span class="status-badge" data-i18n="hero.badge"></span>
           <p data-i18n="hero.badge_text"></p>
@@ -59,7 +61,6 @@
       </div>
     </div>
   </section>
-</main>
 
 <!-- Workspace Section -->
 <section class="workspace-section" id="workspace">
@@ -285,7 +286,7 @@
           <li data-i18n="plans.standard_f3"></li>
           <li data-i18n="plans.standard_f4"></li>
         </ul>
-        <a href="demo.html" data-magnetic class="btn btn-outline btn-block" data-i18n="plans.standard_cta">Get Standard Lab</a>
+        <a href="#workspace" data-magnetic class="btn btn-outline btn-block" data-app-segment="register" data-i18n="plans.standard_cta">Get Standard Lab</a>
       </article>
       <article class="plan-card plan-featured">
         <div class="plan-title-row"><h3 data-i18n="plans.enterprise_name">Enterprise</h3><span class="plan-badge" data-i18n="plans.enterprise_badge">Most complete</span></div>
@@ -298,7 +299,7 @@
           <li data-i18n="plans.enterprise_f3"></li>
           <li data-i18n="plans.enterprise_f4"></li>
         </ul>
-        <a href="demo.html" data-magnetic class="btn btn-white btn-block" data-i18n="plans.enterprise_cta">Get Enterprise</a>
+        <a href="#workspace" data-magnetic class="btn btn-white btn-block" data-app-segment="register" data-i18n="plans.enterprise_cta">Get Enterprise</a>
       </article>
     </div>
     <p class="plans-note" data-i18n="plans.note"></p>
@@ -455,6 +456,8 @@
       <p class="contact-info" data-i18n="contact.info"></p>
     </div>
   </section>
+</main>
+
 <!-- Footer -->
 <footer class="footer">
   <div class="container">

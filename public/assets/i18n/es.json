@@ -24,10 +24,10 @@
     "overline": "CALIDAD · PRODUCCIÓN · CONECTADOS",
     "title": "Cada lote.<br>Cada decisión.<br>Un registro claro.",
     "subtitle": "Reúne la documentación de calidad, la trazabilidad y la visión del equipo en vivo en un solo espacio.",
-    "btn_signin": "No tienes cuenta? Regístrate",
+    "btn_signin": "¿No tienes cuenta? Regístrate",
     "btn_capabilities": "Ver capacidades",
     "trust": "Acceso por roles · Registros atribuidos · Aprobaciones controladas · 2FA crítico",
-    "image_alt": "Laboratorio Farmacéutico",
+    "image_alt": "Especialista operando un equipo en una sala limpia farmacéutica",
     "badge": "LISTO PARA LIBERAR",
     "badge_text": "<strong>B-26038</strong> · Evidencia completa · 6 de 6 prerrequisitos aprobados · Maya Chen"
   },
@@ -163,7 +163,7 @@
     "enterprise_f3": "Gestión multisede",
     "enterprise_f4": "Analítica avanzada de KPI",
     "enterprise_cta": "Elegir Enterprise",
-    "note": "Todo plan empieza con el piloto de 30 días que se ofrece a los laboratorios que solicitan una demo. Precios en dólares estadounidenses; no incluyen impuestos."
+    "note": "Precios en dólares estadounidenses; no incluyen impuestos. Puedes cambiar o cancelar tu plan antes de la fecha de renovación."
   },
   "testimonials": {
     "overline": "Testimonios",
