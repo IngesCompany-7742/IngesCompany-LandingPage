@@ -1,6 +1,8 @@
 {
   "meta": {
-    "home": "DoofPlus - Pharmaceutical Quality Management"
+    "home": "DoofPlus - Pharmaceutical Quality Management",
+    "terms": "Terms of Service - DoofPlus",
+    "privacy": "Privacy Policy - DoofPlus"
   },
   "nav": {
     "home": "Home",
@@ -12,7 +14,9 @@
     "get_started": "Get Started",
     "menu": "Open menu",
     "skip": "Skip to main content",
-    "close": "Close menu"
+    "close": "Close menu",
+    "back": "← Back to DoofPlus",
+    "back_short": "← Back"
   },
   "hero": {
     "overline": "GMP · DIGEMID · IoT · Audit trail",
