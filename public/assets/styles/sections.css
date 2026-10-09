@@ -661,3 +661,42 @@
   color: #94a3b8;
   font-size: 13px;
 }
+
+/* ---------- Testimonials ---------- */
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 22px 22px 26px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--gray-bg);
+}
+
+.stars {
+  color: var(--amber);
+  letter-spacing: 2px;
+}
+
+/* On a gray section the cards turn white so they stay visible. */
+.section-gray .testimonial {
+  background: #fff;
+}
+
+.testimonial blockquote {
+  flex: 1;
+  margin: 10px 0 28px;
+  color: var(--navy-line);
+  font-size: 14px;
+}
+
+.testimonial figcaption strong {
+  display: block;
+  font-size: 14px;
+}
+
+.testimonial figcaption span {
+  color: var(--muted);
+  font-size: 12px;
+}
