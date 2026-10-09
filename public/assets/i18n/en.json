@@ -12,13 +12,7 @@
     "get_started": "Get Started",
     "menu": "Open menu",
     "skip": "Skip to main content",
-    "close": "Close menu",
-    "platform": "Platform",
-    "role": "By role",
-    "security": "Security",
-    "resources": "Resources",
-    "qa_access": "QA/QC Access",
-    "prod_access": "Production Access"
+    "close": "Close menu"
   },
   "hero": {
     "overline": "QUALITY · PRODUCTION · CONNECTED",
@@ -26,6 +20,7 @@
     "subtitle": "Bring quality documentation, manufacturing traceability and live equipment insight into one pharmaceutical workspace.",
     "btn_signin": "No account? Sign up",
     "btn_capabilities": "View capabilities",
+    "cta_plans": "View plans",
     "trust": "Role-based access · Attributed records · Controlled approvals · 2FA at critical steps",
     "image_alt": "Specialist operating equipment in a pharmaceutical clean room",
     "badge": "READY FOR RELEASE",

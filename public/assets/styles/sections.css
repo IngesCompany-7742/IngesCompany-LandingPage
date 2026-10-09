@@ -68,16 +68,6 @@
   color: #0F172A;
   font-weight: 700;
 }
-.navbar-dark {
-  background: var(--navy);
-  border-bottom: 1px solid var(--navy-line);
-}
-.navbar-dark .nav-links a {
-  color: var(--muted-light);
-}
-.navbar-dark .nav-links a:hover {
-  color: #ffffff;
-}
 .lang-switch-dark {
   background: white;
   border-radius: 20px;

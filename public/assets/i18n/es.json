@@ -12,13 +12,7 @@
     "get_started": "Comenzar",
     "menu": "Abrir menú",
     "skip": "Saltar al contenido principal",
-    "close": "Cerrar menú",
-    "platform": "Plataforma",
-    "role": "Por rol",
-    "security": "Seguridad",
-    "resources": "Recursos",
-    "qa_access": "Acceso QA/QC",
-    "prod_access": "Acceso Producción"
+    "close": "Cerrar menú"
   },
   "hero": {
     "overline": "CALIDAD · PRODUCCIÓN · CONECTADOS",
@@ -26,6 +20,7 @@
     "subtitle": "Reúne la documentación de calidad, la trazabilidad y la visión del equipo en vivo en un solo espacio.",
     "btn_signin": "¿No tienes cuenta? Regístrate",
     "btn_capabilities": "Ver capacidades",
+    "cta_plans": "Ver planes",
     "trust": "Acceso por roles · Registros atribuidos · Aprobaciones controladas · 2FA crítico",
     "image_alt": "Especialista operando un equipo en una sala limpia farmacéutica",
     "badge": "LISTO PARA LIBERAR",
