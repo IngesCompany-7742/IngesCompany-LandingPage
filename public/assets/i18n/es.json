@@ -31,6 +31,16 @@
     "badge": "LISTO PARA LIBERAR",
     "badge_text": "<strong>B-26038</strong> · Evidencia completa · 6 de 6 prerrequisitos aprobados · Maya Chen"
   },
+  "workspace": {
+    "process_overline": "UNA FUENTE DE VERDAD COMPARTIDA",
+    "step1": "<strong>01 Recibir</strong> — Inspeccionar y poner materiales en cuarentena",
+    "step2": "<strong>02 Manufacturar</strong> — Ejecutar fórmulas maestras",
+    "step3": "<strong>03 Revisar</strong> — Resolver el riesgo de calidad con evidencia",
+    "step4": "<strong>04 Liberar</strong> — Firmar una decisión de QA responsable",
+    "overline": "TU ROL · TUS PRIORIDADES",
+    "title": "Dos entradas enfocadas. Una organización conectada.",
+    "subtitle": "Elige tu espacio de trabajo. Tu organización asigna acceso y privilegios de aprobación. Seleccionar una ruta es una intención—los permisos son determinados por tu perfil autenticado y la instalación asignada después del 2FA."
+  },
   "plans": {
     "overline": "Planes",
     "title": "Planes simples para cada laboratorio",

@@ -31,6 +31,17 @@
     "badge": "READY FOR RELEASE",
     "badge_text": "<strong>B-26038</strong> · Evidence complete · 6 of 6 prerequisites passed · Maya Chen"
   },
+
+    "workspace": {
+      "process_overline": "ONE SHARED SOURCE OF TRUTH",
+      "step1": "<strong>01 Receive</strong> — Inspect & quarantine materials",
+      "step2": "<strong>02 Manufacture</strong> — Execute master formulas",
+      "step3": "<strong>03 Review</strong> — Resolve quality risk with evidence",
+      "step4": "<strong>04 Release</strong> — Sign an accountable QA decision",
+      "overline": "YOUR ROLE · YOUR PRIORITIES",
+      "title": "Two focused entrances. One connected organization.",
+      "subtitle": "Choose your workspace. Your organization assigns access and approval privileges. Selecting a route is intent—permissions are determined by your authenticated profile and assigned facility after 2FA."
+    },
   "plans": {
     "overline": "Plans",
     "title": "Simple plans for every laboratory",
