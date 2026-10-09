@@ -2,6 +2,7 @@ import { i18n } from './i18n.js';
 import { initializeLanguageSwitcher } from './components/language-switcher.js';
 import { initializeNavbar } from './components/navbar.js';
 import { initializeSegmentAccess } from './components/segment-access.js';
+import { initializeAccordions } from './components/accordion.js';
 import { initializeMagneticEffect } from './effects/magnetic.effect.js';
 
 /**
@@ -19,5 +20,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   initializeLanguageSwitcher();
   initializeNavbar();
   initializeSegmentAccess();
+  initializeAccordions();
   initializeMagneticEffect();
 });
