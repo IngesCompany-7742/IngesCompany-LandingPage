@@ -537,3 +537,29 @@
     font-size: 12px;
 }
 
+/* ---------- Benefits ---------- */
+
+.benefit-card {
+  padding: 28px 22px;
+  border: 1px solid var(--navy-line);
+  border-radius: var(--radius);
+  background: var(--navy-soft);
+}
+
+.benefit-value {
+  display: block;
+  color: var(--teal-bright);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.benefit-card h3 {
+  margin: 10px 0 28px;
+  font-size: 16px;
+}
+
+.benefit-card p {
+  color: #94a3b8;
+  font-size: 13px;
+}
