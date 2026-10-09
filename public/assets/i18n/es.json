@@ -15,16 +15,15 @@
     "close": "Cerrar menú"
   },
   "hero": {
-    "overline": "CALIDAD · PRODUCCIÓN · CONECTADOS",
-    "title": "Cada lote.<br>Cada decisión.<br>Un registro claro.",
-    "subtitle": "Reúne la documentación de calidad, la trazabilidad y la visión del equipo en vivo en un solo espacio.",
-    "btn_signin": "¿No tienes cuenta? Regístrate",
-    "btn_capabilities": "Ver capacidades",
+    "overline": "BPM · DIGEMID · IoT · Audit trail",
+    "title": "El futuro de la gestión de calidad farmacéutica",
+    "subtitle": "DoofPlus centraliza la documentación de calidad, la trazabilidad de lotes, las desviaciones y los datos IoT en una sola plataforma para laboratorios farmacéuticos: menos errores manuales, registros inalterables y auditorías preparadas en una fracción del tiempo.",
+    "cta_start": "Comenzar",
     "cta_plans": "Ver planes",
-    "trust": "Acceso por roles · Registros atribuidos · Aprobaciones controladas · 2FA crítico",
+    "trust": "Acceso por roles · Firmas electrónicas · 2FA · Audit trail inalterable",
     "image_alt": "Especialista operando un equipo en una sala limpia farmacéutica",
-    "badge": "LISTO PARA LIBERAR",
-    "badge_text": "<strong>B-26038</strong> · Evidencia completa · 6 de 6 prerrequisitos aprobados · Maya Chen"
+    "badge": "Listo para liberación",
+    "badge_text": "<strong>B-26038</strong> · Paracetamol 500 mg · 6/6 verificaciones aprobadas · Aprobado por María México"
   },
   "workspace": {
     "process_overline": "UNA FUENTE DE VERDAD COMPARTIDA",
@@ -40,7 +39,6 @@
     "qa_subtitle": "Calidad de riesgo, las aprobaciones y la preparación para el lanzamiento..",
     "qa_list": "· Documentos y SOPs · Resultados analíticos · Desviaciones & CAPA · Auditorías e informes",
     "qa_cta": "Enter QA/QC workspace →",
-
     "prod_tag": "PRODUCCIÓN",
     "prod_title": "Para supervisores de producción",
     "prod_subtitle": "Mantén los pedidos, lotes y equipos en movimiento.",

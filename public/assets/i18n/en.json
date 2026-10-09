@@ -15,38 +15,36 @@
     "close": "Close menu"
   },
   "hero": {
-    "overline": "QUALITY · PRODUCTION · CONNECTED",
-    "title": "Every batch.<br>Every decision.<br>One clear record.",
-    "subtitle": "Bring quality documentation, manufacturing traceability and live equipment insight into one pharmaceutical workspace.",
-    "btn_signin": "No account? Sign up",
-    "btn_capabilities": "View capabilities",
+    "overline": "GMP · DIGEMID · IoT · Audit trail",
+    "title": "The Future of Pharmaceutical Quality Management",
+    "subtitle": "DoofPlus centralizes quality documentation, batch traceability, deviations and IoT data in one platform for pharmaceutical laboratories—fewer manual errors, immutable records and audits prepared in a fraction of the time.",
+    "cta_start": "Get Started",
     "cta_plans": "View plans",
-    "trust": "Role-based access · Attributed records · Controlled approvals · 2FA at critical steps",
+    "trust": "Role-based access · Electronic signatures · 2FA · Immutable audit trail",
     "image_alt": "Specialist operating equipment in a pharmaceutical clean room",
-    "badge": "READY FOR RELEASE",
-    "badge_text": "<strong>B-26038</strong> · Evidence complete · 6 of 6 prerequisites passed · Maya Chen"
+    "badge": "Ready for release",
+    "badge_text": "<strong>B-26038</strong> · Paracetamol 500 mg · 6/6 checks passed · Approved by María México"
   },
-    "workspace": {
-      "process_overline": "ONE SHARED SOURCE OF TRUTH",
-      "step1": "<strong>01 Receive</strong> — Inspect & quarantine materials",
-      "step2": "<strong>02 Manufacture</strong> — Execute master formulas",
-      "step3": "<strong>03 Review</strong> — Resolve quality risk with evidence",
-      "step4": "<strong>04 Release</strong> — Sign an accountable QA decision",
-      "overline": "YOUR ROLE · YOUR PRIORITIES",
-      "title": "Two focused entrances. One connected organization.",
-      "subtitle": "Choose your workspace. Your organization assigns access and approval privileges. Selecting a route is intent—permissions are determined by your authenticated profile and assigned facility after 2FA.",
-      "qa_tag": "QA / QC",
-      "qa_title": "For QA/QC Specialists",
-      "qa_subtitle": "Quality risk, approvals and release readiness first.",
-      "qa_list": "· Documents & SOPs · Analytical results · Deviations & CAPA · Audits & reports",
-      "qa_cta": "Enter QA/QC workspace →",
-
-      "prod_tag": "PRODUCTION",
-      "prod_title": "For Production Supervisors",
-      "prod_subtitle": "Keep orders, batches and equipment moving.",
-      "prod_list": "· Products & formulas · Production orders · Materials · IoT & incidents",
-      "prod_cta": "Enter production workspace →"
-    },
+  "workspace": {
+    "process_overline": "ONE SHARED SOURCE OF TRUTH",
+    "step1": "<strong>01 Receive</strong> — Inspect & quarantine materials",
+    "step2": "<strong>02 Manufacture</strong> — Execute master formulas",
+    "step3": "<strong>03 Review</strong> — Resolve quality risk with evidence",
+    "step4": "<strong>04 Release</strong> — Sign an accountable QA decision",
+    "overline": "YOUR ROLE · YOUR PRIORITIES",
+    "title": "Two focused entrances. One connected organization.",
+    "subtitle": "Choose your workspace. Your organization assigns access and approval privileges. Selecting a route is intent—permissions are determined by your authenticated profile and assigned facility after 2FA.",
+    "qa_tag": "QA / QC",
+    "qa_title": "For QA/QC Specialists",
+    "qa_subtitle": "Quality risk, approvals and release readiness first.",
+    "qa_list": "· Documents & SOPs · Analytical results · Deviations & CAPA · Audits & reports",
+    "qa_cta": "Enter QA/QC workspace →",
+    "prod_tag": "PRODUCTION",
+    "prod_title": "For Production Supervisors",
+    "prod_subtitle": "Keep orders, batches and equipment moving.",
+    "prod_list": "· Products & formulas · Production orders · Materials · IoT & incidents",
+    "prod_cta": "Enter production workspace →"
+  },
   "services": {
     "overline": "What we offer",
     "title": "Our services",
@@ -239,7 +237,6 @@
     "success_text": "Thank you, {name}. Our team will reply to <strong>{email}</strong> within two business days.",
     "again": "Send another inquiry"
   },
-
   "footer": {
     "tagline": "Pharmaceutical quality management with IoT and regulatory compliance.",
     "product": "Product",
