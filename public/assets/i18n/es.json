@@ -293,5 +293,16 @@
     "p4_text": "Solo compartimos los datos necesarios con proveedores del servicio: ThingsBoard (telemetría IoT), Niubiz (pagos) y nuestro proveedor en la nube, bajo acuerdos de confidencialidad.",
     "p5_title": "5. Tus derechos",
     "p5_text": "Puedes ejercer tus derechos de acceso, rectificación, cancelación y oposición (ARCO) escribiendo a doofplus.inges@gmail.com. También puedes presentar un reclamo ante la Autoridad Nacional de Protección de Datos Personales del Perú."
+  },
+  "cta": {
+    "overline": "Comienza a usar DoofPlus",
+    "title": "¿Listo para modernizar la gestión de calidad de tu laboratorio?",
+    "subtitle": "Prueba nuestra aplicación web desplegada en acción. Centraliza registros de lote, gestiona desviaciones en tiempo real y cumple con los estándares de DIGEMID.",
+    "btn_app": "Abrir aplicación web →",
+    "btn_register": "Registra tu laboratorio",
+    "quick_label": "Acceso rápido por entorno:",
+    "qa_env": "Entorno QA/QC →",
+    "prod_env": "Entorno Producción →",
+    "trust": "SaaS en la nube · Acceso instantáneo · Seguridad por roles · Compatible con BPM y DIGEMID"
   }
 }
